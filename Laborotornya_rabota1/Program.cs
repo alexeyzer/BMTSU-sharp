@@ -61,7 +61,7 @@ namespace Laborotornya_rabota1
             a = 0;
             b = 0;
             c = 0;
-            Console.WriteLine("Зудин Алексей Максимович ИУ5-33Б");
+            Console.Title = ("Зудин Алексей Максимович ИУ5-33Б");
             if (args.Length == 3)
             {
                 try
