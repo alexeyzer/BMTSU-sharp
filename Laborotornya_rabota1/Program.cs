@@ -23,7 +23,7 @@ namespace Laborotornya_rabota1
 
         
 
-        static void input(ref int a, ref int b, ref int c)
+        static void input(ref double a, ref double b, ref double c)
         {
             try
             {
@@ -47,9 +47,9 @@ namespace Laborotornya_rabota1
        
         static int Main(string[] args)
         {
-            int a;
-            int b;
-            int c;
+            double a;
+            double b;
+            double c;
             double x1;
             double x2;
             double x3;
@@ -66,9 +66,9 @@ namespace Laborotornya_rabota1
             {
                 try
                 {
-                    a = Convert.ToInt32(args[0]);
-                    b = Convert.ToInt32(args[1]);
-                    c = Convert.ToInt32(args[2]);
+                    a = Convert.ToDouble(args[0]);
+                    b = Convert.ToDouble(args[1]);
+                    c = Convert.ToDouble(args[2]);
                 }
                 catch (Exception)
                 {
@@ -154,6 +154,33 @@ namespace Laborotornya_rabota1
             }
             else
             {
+                if (b != 0 && c == 0)
+                {
+                    if (b > 0)
+                    {
+                        x1 = Math.Sqrt(-b / a *-1);
+                        change_color(2);
+                        Console.WriteLine("x1 = 0 x2 = {0}i x3 = -{1}i", x1, x1);
+                    }
+                    else
+                    {
+                        x1 = Math.Sqrt(-b / a);
+                        change_color(2);
+                        Console.WriteLine("x1 = 0 x2 = {0} x3 = -{1}", x1, x1);
+                    }
+                }
+                else
+                {
+                    if (b == 0 && c != 0)
+                    {
+
+                    }
+                    else
+                    {
+                        change_color(2);
+                        Console.WriteLine("Единственное решение x = 0 ");
+                    }
+                }
 
             }
 
