@@ -14,6 +14,9 @@ namespace Laborotornya_rabota1
                 Console.ForegroundColor = ConsoleColor.Red;
             else if (i == 2)
                 Console.ForegroundColor = ConsoleColor.Green;
+            else if (i == 8)
+                Console.ForegroundColor = ConsoleColor.Gray;
+
         }
         static void no_korny()
         {
@@ -36,14 +39,18 @@ namespace Laborotornya_rabota1
             }
             catch (Exception)
             {
+                change_color(1);
                 Console.WriteLine("Введены некоректные данные");
+                change_color(8);
                 input(ref a, ref b, ref c);
             }
-            if (a == 0)
-            {
-                Console.WriteLine("Параметр a должен быть не равен 0!!!!");
-                input(ref a, ref b, ref c);
-            }
+           // if (a == 0)
+          //  {
+              //  change_color(1);
+              //  Console.WriteLine("Параметр a должен быть не равен 0!!!!");
+              //  change_color(8);
+              //  input(ref a, ref b, ref c);
+           //}
         }
        
         static int Main(string[] args)
@@ -56,9 +63,6 @@ namespace Laborotornya_rabota1
             double x3;
             double x4;
 
-            
-
-       
             a = 0;
             b = 0;
             c = 0;
@@ -73,12 +77,15 @@ namespace Laborotornya_rabota1
                 }
                 catch (Exception)
                 {
+                    change_color(1);
                     Console.WriteLine("Введены неверные параметры командной строки");
                     return (0);
                 }
                 if (a == 0)
                 {
+                    change_color(1);
                     Console.WriteLine("Параметр командной строки 'a' должен быть не равен 0!!!!");
+                    change_color(8);
                     return (0);
                 }
 
@@ -87,7 +94,7 @@ namespace Laborotornya_rabota1
             {
                 input(ref a, ref b, ref c);
             }
-            if (b != 0 && c != 0)
+            if (b != 0 && c != 0 && a != 0)
             {
                 if (b * b - 4 * a * c < 0)
                 {
@@ -156,7 +163,7 @@ namespace Laborotornya_rabota1
             }
             else
             {
-                if (b != 0 && c == 0)
+                if (b != 0 && c == 0 && a !=0)
                 {
                     if (b > 0)
                     {
@@ -173,7 +180,7 @@ namespace Laborotornya_rabota1
                 }
                 else
                 {
-                    if (b == 0 && c != 0)
+                    if (b == 0 && c != 0 && a != 0)
                     {
                         if (c > 0)
                         {
@@ -190,8 +197,17 @@ namespace Laborotornya_rabota1
                     }
                     else
                     {
-                        change_color(2);
-                        Console.WriteLine("Единственное решение x = 0 ");
+                        if (a != 0)
+                        {
+                            change_color(2);
+                            Console.WriteLine("x1 = 0 x2 = 0 x3 = 0 x4 = 0");
+                        }
+                        else
+                        {
+                            change_color(2);
+                            Console.WriteLine("бесконечное решение корней");
+                        }
+                        
                     }
                 }
 

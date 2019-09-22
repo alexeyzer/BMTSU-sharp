@@ -19,3 +19,10 @@ C:\Users\alexzudin\Source\Repos\Laba12\Laborotornya_rabota1\obj\Debug\Laborotorn
 C:\Users\alexzudin\Source\Repos\Laba12\Laborotornya_rabota1\obj\Debug\Laborotornya_rabota1.csproj.CoreCompileInputs.cache
 C:\Users\alexzudin\Source\Repos\Laba12\Laborotornya_rabota1\obj\Debug\Laborotornya_rabota1.exe
 C:\Users\alexzudin\Source\Repos\Laba12\Laborotornya_rabota1\obj\Debug\Laborotornya_rabota1.pdb
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota1\bin\Debug\Laborotornya_rabota1.exe.config
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota1\bin\Debug\Laborotornya_rabota1.exe
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota1\bin\Debug\Laborotornya_rabota1.pdb
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota1\obj\Debug\Laborotornya_rabota1.csprojAssemblyReference.cache
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota1\obj\Debug\Laborotornya_rabota1.csproj.CoreCompileInputs.cache
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota1\obj\Debug\Laborotornya_rabota1.exe
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota1\obj\Debug\Laborotornya_rabota1.pdb
