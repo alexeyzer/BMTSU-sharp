@@ -36,6 +36,7 @@ namespace Laborotornya_rabota1
             }
             catch (Exception)
             {
+                Console.WriteLine("Введены некоректные данные");
                 input(ref a, ref b, ref c);
             }
             if (a == 0)
@@ -77,7 +78,7 @@ namespace Laborotornya_rabota1
                 }
                 if (a == 0)
                 {
-                    Console.WriteLine("Параметр командной строки a должен быть не равен 0!!!!");
+                    Console.WriteLine("Параметр командной строки 'a' должен быть не равен 0!!!!");
                     return (0);
                 }
 
@@ -130,7 +131,8 @@ namespace Laborotornya_rabota1
                         {
                             x1 = Math.Sqrt((-b - Math.Sqrt(b * b - 4 * a * c)) / (2 * a));
                             x2 = -Math.Sqrt((-b - Math.Sqrt(b * b - 4 * a * c)) / (2 * a));
-                            Console.Write("x1 = {0}i x2 = {1}i ", x1, x2);
+                            change_color(2);
+                            Console.Write("x1 = {0} x2 = {1} ", x1, x2);
                         }
                         if ((-b + Math.Sqrt(b * b - 4 * a * c)) / (2 * a) < 0)
                         {
@@ -146,7 +148,7 @@ namespace Laborotornya_rabota1
                             x3 = Math.Sqrt((-b + Math.Sqrt(b * b - 4 * a * c)) / (2 * a));
                             x4 = -Math.Sqrt((-b + Math.Sqrt(b * b - 4 * a * c)) / (2 * a));
                             change_color(2);
-                            Console.WriteLine("x3 = {0}i x4 = {1}i", x3, x4);
+                            Console.WriteLine("x3 = {0} x4 = {1}", x3, x4);
                         }
                         return (0);
                     }
@@ -158,7 +160,7 @@ namespace Laborotornya_rabota1
                 {
                     if (b > 0)
                     {
-                        x1 = Math.Sqrt(-b / a *-1);
+                        x1 = Math.Sqrt(b / a);
                         change_color(2);
                         Console.WriteLine("x1 = 0 x2 = {0}i x3 = -{1}i", x1, x1);
                     }
@@ -173,7 +175,18 @@ namespace Laborotornya_rabota1
                 {
                     if (b == 0 && c != 0)
                     {
-
+                        if (c > 0)
+                        {
+                            x1 = Math.Sqrt(c / a * -1);
+                            change_color(2);
+                            Console.WriteLine("x1 = {0}i x2 = -{1}i", x1, x1);
+                        }
+                        else
+                        {
+                            x1 = Math.Sqrt(-c / a);
+                            change_color(2);
+                            Console.WriteLine("x1 = {0} x2 = -{1}", x1, x1);
+                        }
                     }
                     else
                     {
@@ -183,8 +196,6 @@ namespace Laborotornya_rabota1
                 }
 
             }
-
-           // Console.WriteLine("{0},{1}", x1, x2);
             return (0);
         }
     }
