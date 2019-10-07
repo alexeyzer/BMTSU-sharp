@@ -184,7 +184,7 @@
                         {
                             if (c > 0)
                             {
-                                x1 = Math.Sqrt(c / a * -1);
+                                x1 = Math.Sqrt(c / a);
                                 change_color(2);
                                 Console.WriteLine("x1 = {0}i x2 = -{1}i", x1, x1);
                             }
@@ -197,24 +197,42 @@
                         }
                         else
                         {
-                            if (a != 0)
+                            if (a != 0 && b ==0 && c == 0)
                             {
                                 change_color(2);
                                 Console.WriteLine("x1 = 0 x2 = 0 x3 = 0 x4 = 0");
                             }
                             else
                             {
-                                if (b != 0)
+                                if (a ==0 && b != 0 && c == 0)
                                 {
                                     change_color(2);
                                     Console.WriteLine("x1 = 0 x2 = 0");
 
-                            }
+                                }
+                                else
+                                {
+                                if (a == 0 && b != 0 && c != 0)
+                                {
+                                    if (c > 0)
+                                    {
+                                        x1 = Math.Sqrt(c / b);
+                                        change_color(2);
+                                        Console.WriteLine("x1 = {0}i x2 = -{1}i", x1, x1);
+                                    }
+                                    else
+                                    {
+                                        x1 = Math.Sqrt(-c / b);
+                                        change_color(2);
+                                        Console.WriteLine("x1 = {0} x2 = -{1}", x1, x1);
+                                    }
+                                }
                                 else
                                 {
                                     change_color(2);
                                     Console.WriteLine("бесконечное решение корней");
                                 }
+                                }   
                             }
                         
                         }
