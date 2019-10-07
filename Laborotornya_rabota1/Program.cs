@@ -204,8 +204,17 @@
                             }
                             else
                             {
-                                change_color(2);
-                                Console.WriteLine("бесконечное решение корней");
+                                if (b != 0)
+                                {
+                                    change_color(2);
+                                    Console.WriteLine("x1 = 0 x2 = 0");
+
+                            }
+                                else
+                                {
+                                    change_color(2);
+                                    Console.WriteLine("бесконечное решение корней");
+                                }
                             }
                         
                         }
