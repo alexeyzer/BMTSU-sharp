@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Labaratornay_rabota2
 {
-    public class circle : geometr_figur
+    public class circle : geometr_figur, IPrint
     {
         public double radius { get; set; }
         public circle(double radius)
