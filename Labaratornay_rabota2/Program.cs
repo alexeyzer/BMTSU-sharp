@@ -10,10 +10,16 @@ namespace Labaratornay_rabota2
     {
         static void Main(string[] args)
         {
-            circle cir = new circle(6);
-            square sqr = new square(6);
-            rectangle rct = new rectangle(6,4);
-            
+            circle cir = new circle();
+            square sqr = new square();
+            rectangle rct = new rectangle();
+
+            cir.property_radius = 6;
+            rct.property_shirina = 5;
+            rct.property_visota = 6;
+            sqr.property_visota = 4;
+            sqr.property_shirina = 4;
+
             cir.Print();
             sqr.Print();
             rct.Print();

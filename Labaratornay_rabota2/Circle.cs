@@ -8,7 +8,18 @@ namespace Labaratornay_rabota2
 {
     public class circle : geometr_figur, IPrint
     {
-        public double radius { get; set; }
+        private double radius;
+        public double property_radius 
+        {
+            get
+            {
+                return radius;
+            }
+            set
+            {
+                radius = value;
+            }
+        }
         public circle(double radius)
         {
             this.radius = radius;
@@ -17,6 +28,10 @@ namespace Labaratornay_rabota2
         public override double ploshad()
         {
             return (Math.PI * radius * radius);
+        }
+        public circle()
+        {
+            this.Type = "Круг";
         }
         public void Print()
         {

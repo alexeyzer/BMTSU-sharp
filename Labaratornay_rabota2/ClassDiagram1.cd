@@ -15,17 +15,10 @@
       <FileName>geometr_figur.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Labaratornay_rabota2.Program" Collapsed="true">
-    <Position X="5.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Labaratornay_rabota2.rectangle" Collapsed="true">
     <Position X="2.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAQAgAAAAIAAAAAAAAAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAgAAAQAgAAAAIAAAAAAAQAAAAEAAA=</HashCode>
       <FileName>rectangle.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -35,6 +28,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Labaratornay_rabota2.Program" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Labaratornay_rabota2.IPrint" Collapsed="true">

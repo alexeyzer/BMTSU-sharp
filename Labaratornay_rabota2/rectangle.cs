@@ -8,8 +8,31 @@ namespace Labaratornay_rabota2
 {
     public class rectangle : geometr_figur, IPrint
     {
-        public double visota { get; set; }
-        public double shirina { get; set; }
+        private double shirina;
+        private double visota;
+
+        public double property_visota 
+        {
+            get
+            {
+                return visota;
+            }
+            set 
+            {
+                visota = value;
+            } 
+        }
+        public double property_shirina
+        {
+            get 
+            {
+                return shirina;
+            }
+            set
+            {
+                shirina = value;
+            }
+        }
 
         public override double ploshad()
         {
@@ -24,6 +47,10 @@ namespace Labaratornay_rabota2
         public void Print()
         {
             Console.WriteLine(this.ToString());
+        }
+        public rectangle()
+        {
+            this.Type = "Прямоугольник";
         }
 
     }

@@ -12,6 +12,10 @@ namespace Labaratornay_rabota2
         {
             this.Type = "Квадрат";
         }
+        public square(): base()
+        {
+            this.Type = "Квадрат";
+        }
 
     }
 }
