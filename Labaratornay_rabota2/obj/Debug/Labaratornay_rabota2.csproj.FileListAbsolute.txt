@@ -11,3 +11,8 @@ C:\Users\alexe\Source\Repos\Laba\Labaratornay_rabota2\bin\Debug\Labaratornay_rab
 C:\Users\alexe\Source\Repos\Laba\Labaratornay_rabota2\obj\Debug\Labaratornay_rabota2.csprojAssemblyReference.cache
 C:\Users\alexe\Source\Repos\Laba\Labaratornay_rabota2\obj\Debug\Labaratornay_rabota2.exe
 C:\Users\alexe\Source\Repos\Laba\Labaratornay_rabota2\obj\Debug\Labaratornay_rabota2.pdb
+C:\Users\alexe\Source\Repos\Laba1\Labaratornay_rabota2\obj\Debug\Labaratornay_rabota2.exe
+C:\Users\alexe\Source\Repos\Laba1\Labaratornay_rabota2\obj\Debug\Labaratornay_rabota2.pdb
+C:\Users\alexe\Source\Repos\Laba1\Labaratornay_rabota2\bin\Debug\Labaratornay_rabota2.exe.config
+C:\Users\alexe\Source\Repos\Laba1\Labaratornay_rabota2\bin\Debug\Labaratornay_rabota2.exe
+C:\Users\alexe\Source\Repos\Laba1\Labaratornay_rabota2\bin\Debug\Labaratornay_rabota2.pdb

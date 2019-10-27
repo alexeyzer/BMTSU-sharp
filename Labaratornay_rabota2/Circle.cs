@@ -37,6 +37,10 @@ namespace Labaratornay_rabota2
         {
             Console.WriteLine(this.ToString());
         }
+        public override double Area()
+        {
+            return ploshad();
+        }
 
     }
 }

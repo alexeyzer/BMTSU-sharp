@@ -1,0 +1,10 @@
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Laborotornya_rabota3.exe.config
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Laborotornya_rabota3.exe
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Laborotornya_rabota3.pdb
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Labaratornay_rabota2.exe
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Labaratornay_rabota2.pdb
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Labaratornay_rabota2.exe.config
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.csprojAssemblyReference.cache
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.csproj.CopyComplete
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.exe
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.pdb

@@ -52,6 +52,10 @@ namespace Labaratornay_rabota2
         {
             this.Type = "Прямоугольник";
         }
+        public override double Area()
+        {
+            return ploshad();
+        }
 
     }
 }

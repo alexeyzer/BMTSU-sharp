@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFB09401-C879-4DE5-8DC8-3D1CD176ABD0}</ProjectGuid>
+    <ProjectGuid>{7B348991-0BB3-420C-8B30-67B2CF8ABC5A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Labaratornay_rabota2</RootNamespace>
-    <AssemblyName>Labaratornay_rabota2</AssemblyName>
+    <RootNamespace>Laborotornya_rabota3</RootNamespace>
+    <AssemblyName>Laborotornya_rabota3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circle.cs" />
-    <Compile Include="geometr_figur.cs" />
-    <Compile Include="IComparable.cs" />
-    <Compile Include="Iprint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="rectangle.cs" />
-    <Compile Include="square.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Labaratornay_rabota2\Labaratornay_rabota2.csproj">
+      <Project>{afb09401-c879-4de5-8dc8-3d1cd176abd0}</Project>
+      <Name>Labaratornay_rabota2</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

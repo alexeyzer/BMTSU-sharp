@@ -20,6 +20,7 @@ namespace Labaratornay_rabota2
             sqr.property_visota = 4;
             sqr.property_shirina = 4;
 
+
             cir.Print();
             sqr.Print();
             rct.Print();
