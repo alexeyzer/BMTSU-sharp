@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Circle.cs" />
     <Compile Include="geometr_figur.cs" />
-    <Compile Include="IComparable.cs" />
     <Compile Include="Iprint.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

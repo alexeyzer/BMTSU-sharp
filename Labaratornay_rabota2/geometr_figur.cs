@@ -13,14 +13,13 @@ namespace Labaratornay_rabota2
 
         public override string ToString() { return this.Type + " площадью " + this.ploshad().ToString(); }
 
-        public abstract double Area();
 
         public int CompareTo(object obj)
-        {
+        { 
             geometr_figur p = (geometr_figur)obj;
-            if (this.Area() < p.Area()) 
+            if (this.ploshad() < p.ploshad()) 
                 return -1;
-            else if (this.Area() == p.Area())
+            else if (this.ploshad() == p.ploshad())
                 return 0;
             else return 1;
         }

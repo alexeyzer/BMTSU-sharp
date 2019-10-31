@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,12 +15,26 @@ namespace Laborotornya_rabota3
             rectangle rect = new rectangle(5, 4); 
             square square = new square(5);
             circle circle = new circle(5);
-            List<geometr_figur> fl = new List<geometr_figur>(); fl.Add(circle); fl.Add(rect); fl.Add(square);
+
+
+            ArrayList l1 = new ArrayList();
+            l1.Add(circle);
+            l1.Add(rect);
+            l1.Add(square);
+            Console.WriteLine("ArrayList:");
+            foreach (object i in l1) Console.Write(i.ToString() + " ");
+
+            Console.Write("\nList:");
+            List<geometr_figur> l2 = new List<geometr_figur>(); 
+            l2.Add(circle); 
+            l2.Add(rect); 
+            l2.Add(square);
             Console.WriteLine("\nПеред сортировкой:"); 
-            foreach (object i in fl) Console.Write(i.ToString() + " ");
-            fl.Sort();
+            foreach (object i in l2) Console.Write(i.ToString() + " ");
+            l2.Sort();
             Console.WriteLine("\nПосле сортировки:"); 
-            foreach (object i in fl) Console.Write(i.ToString() + " ");
+            foreach (object i in l2) Console.Write(i.ToString() + " ");
+            Console.WriteLine("");
         }
     }
 }
