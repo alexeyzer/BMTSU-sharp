@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleList.cs" />
+    <Compile Include="SimpleListItem.cs" />
     <Compile Include="SimpleStack.cs" />
   </ItemGroup>
   <ItemGroup>

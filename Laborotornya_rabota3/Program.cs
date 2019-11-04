@@ -35,6 +35,16 @@ namespace Laborotornya_rabota3
             Console.WriteLine("\nПосле сортировки:"); 
             foreach (object i in l2) Console.Write(i.ToString() + " ");
             Console.WriteLine("");
+
+            Console.WriteLine("Стек");
+            SimpleStack<geometr_figur> stack = new SimpleStack<geometr_figur>(); 
+            stack.Push(rect);
+            stack.Push(square);
+            stack.Push(circle);
+            while (stack.Count > 0) 
+            { 
+                geometr_figur f = stack.Pop(); 
+                Console.WriteLine(f); }
         }
     }
 }

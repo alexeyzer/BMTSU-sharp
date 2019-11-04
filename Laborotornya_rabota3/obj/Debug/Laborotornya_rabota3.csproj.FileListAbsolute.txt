@@ -8,3 +8,4 @@ C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_ra
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.csproj.CopyComplete
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.exe
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.pdb
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Simple.Data.dll
