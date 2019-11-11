@@ -44,7 +44,15 @@ namespace Laborotornya_rabota3
             while (stack.Count > 0) 
             { 
                 geometr_figur f = stack.Pop(); 
-                Console.WriteLine(f); }
+                Console.WriteLine(f); 
+            }
+            Console.WriteLine("\nМатрица"); 
+            Matrix<geometr_figur> matrix = new Matrix<geometr_figur>(3, 3,3, new FigureMatrixCheckEmpty());
+            matrix[0, 0, 0] = rect; 
+            matrix[1, 1, 1] = square; 
+            matrix[2, 2, 2] = circle; 
+            Console.WriteLine(matrix.ToString());
+
         }
     }
 }

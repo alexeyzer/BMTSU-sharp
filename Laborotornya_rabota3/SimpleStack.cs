@@ -18,7 +18,8 @@ namespace Laborotornya_rabota3
         {
             
             T Result = default(T);
-            if (this.Count == 0) return Result;
+            if (this.Count == 0) 
+                return Result;
             if (this.Count == 1)
             {
                 Result = this.first.data;
