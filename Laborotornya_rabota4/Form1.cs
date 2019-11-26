@@ -99,9 +99,9 @@ namespace Laboe
                 t.Stop();
                 this.textBox3.Text = t.Elapsed.ToString();
                 this.listBox1.BeginUpdate();
-   
+
                 this.listBox1.Items.Clear();
-           
+
                 foreach (string str in tempList)
                 {
                     this.listBox1.Items.Add(str);
@@ -112,7 +112,7 @@ namespace Laboe
             { MessageBox.Show("Необходимо выбрать файл и ввести слово для поиска"); }
 
         }
-    
+
 
         private void TextBox2_TextChanged_1(object sender, EventArgs e)
         {
@@ -135,7 +135,4 @@ namespace Laboe
 
         }
     }
-   
-
-    }
-
+}
