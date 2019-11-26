@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labaratornay_rabota2", "Lab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laborotornya_rabota3", "Laborotornya_rabota3\Laborotornya_rabota3.csproj", "{7B348991-0BB3-420C-8B30-67B2CF8ABC5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratornay_rabota4", "Laboe\Laboratornay_rabota4.csproj", "{7C6094C4-A8F7-41D6-BE28-4BD79B41800D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratornay_rabota4", "Laborotornya_rabota4\Laboratornay_rabota4.csproj", "{7C6094C4-A8F7-41D6-BE28-4BD79B41800D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
