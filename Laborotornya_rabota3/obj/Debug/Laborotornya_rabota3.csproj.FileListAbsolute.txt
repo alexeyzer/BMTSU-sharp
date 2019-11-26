@@ -9,3 +9,15 @@ C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_ra
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.exe
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.pdb
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Simple.Data.dll
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Laborotornya_rabota3.exe.config
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Laborotornya_rabota3.exe
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Laborotornya_rabota3.pdb
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Labaratornay_rabota2.exe
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Simple.Data.dll
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Labaratornay_rabota2.pdb
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\bin\Debug\Labaratornay_rabota2.exe.config
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.csprojAssemblyReference.cache
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.csproj.CoreCompileInputs.cache
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.csproj.CopyComplete
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.exe
+C:\Users\alexzudin\Source\Repos\Laba1\Laborotornya_rabota3\obj\Debug\Laborotornya_rabota3.pdb

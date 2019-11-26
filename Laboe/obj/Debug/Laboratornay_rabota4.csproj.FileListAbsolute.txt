@@ -1,0 +1,10 @@
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\bin\Debug\Laboe.exe.config
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\bin\Debug\Laboe.exe
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\bin\Debug\Laboe.pdb
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\obj\Debug\Laboratornay_rabota4.csprojAssemblyReference.cache
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\obj\Debug\Laboe.Form1.resources
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\obj\Debug\Laboe.Properties.Resources.resources
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\obj\Debug\Laboratornay_rabota4.csproj.GenerateResource.cache
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\obj\Debug\Laboratornay_rabota4.csproj.CoreCompileInputs.cache
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\obj\Debug\Laboe.exe
+C:\Users\alexzudin\Source\Repos\Laba1\Laboe\obj\Debug\Laboe.pdb
