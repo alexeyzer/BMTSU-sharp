@@ -15,9 +15,7 @@ namespace Laba6_part1
         static int Multiply(int p1, int p2) { return p1 * p2; }
         static int Devide(int p1, int p2) { return p1 / p2; }
 
-        /// <summary>
-        /// Использование обощенного делегата Func<>
-        /// </summary>
+    
         static void MultiplyOrDevideMethodFunc(string str, int i1, int i2, Func<int, int, int> MultiplyOrDevideParam)
         {
             int Result = MultiplyOrDevideParam(i1, i2);
