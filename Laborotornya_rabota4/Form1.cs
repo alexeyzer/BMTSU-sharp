@@ -142,7 +142,7 @@ namespace Laboe
         private void button2_Click(object sender, EventArgs e)
         {
             //нечеткий поиск
-            //Слово для поиска
+           
             string word = this.textBox2.Text.Trim();
 
             if (!string.IsNullOrWhiteSpace(word) && list.Count > 0)
@@ -211,23 +211,23 @@ namespace Laboe
                 
                 this.textBox7.Text = timer.Elapsed.ToString();
 
-                //Вычисленное количество потоков
+           
                 this.textBox6.Text = count.ToString();
 
-                //Начало обновления списка результатов
+                
                 this.listBox1.BeginUpdate();
 
-                //Очистка списка
+                
                 this.listBox1.Items.Clear();
 
-                //Вывод результатов поиска 
+               
                 foreach (var x in Result)
                 {
                     string temp = x.word + "(расстояние=" + x.dist.ToString() + " поток=" + x.ThreadNum.ToString() + ")";
                     this.listBox1.Items.Add(temp);
                 }
 
-                //Окончание обновления списка результатов
+           
                 this.listBox1.EndUpdate();
             }
             else
@@ -298,10 +298,10 @@ namespace Laboe
 
         private void Отчет_Click(object sender, EventArgs e)
         {
-            //Имя файла отчета
+           
             string TempReportFileName = "Report_" + DateTime.Now.ToString("dd_MM_yyyy_hhmmss");
 
-            //Диалог сохранения файла отчета
+        
             SaveFileDialog fd = new SaveFileDialog();
             fd.FileName = TempReportFileName;
             fd.DefaultExt = ".html";
@@ -311,7 +311,7 @@ namespace Laboe
             {
                 string ReportFileName = fd.FileName;
 
-                //Формирование отчета
+                
                 StringBuilder b = new StringBuilder();
                 b.AppendLine("<html>");
 
