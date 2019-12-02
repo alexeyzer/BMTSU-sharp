@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
+using laboratornya_rabota5;
 
 namespace Laboe
 {
@@ -245,7 +246,7 @@ namespace Laboe
             foreach (string str in param.tempList)
             {
                 
-                int dist = EditDistance.Distance(str.ToUpper(), wordUpper);
+                int dist = Levenshtain.Distance(str.ToUpper(), wordUpper);
 
                 
                 if (dist <= param.maxDist)

@@ -36,3 +36,7 @@ C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\obj\Debug\Laboe.pdb
 \\Mac\Home\Desktop\Laba\Laborotornya_rabota4\obj\Debug\Laboratornay_rabota4.csproj.CoreCompileInputs.cache
 \\Mac\Home\Desktop\Laba\Laborotornya_rabota4\obj\Debug\Laboe.exe
 \\Mac\Home\Desktop\Laba\Laborotornya_rabota4\obj\Debug\Laboe.pdb
+\\Mac\Home\Desktop\Laba\Laborotornya_rabota4\bin\Debug\laba5.exe
+\\Mac\Home\Desktop\Laba\Laborotornya_rabota4\bin\Debug\laba5.pdb
+\\Mac\Home\Desktop\Laba\Laborotornya_rabota4\bin\Debug\laba5.exe.config
+\\Mac\Home\Desktop\Laba\Laborotornya_rabota4\obj\Debug\Laboratornay_rabota4.csproj.CopyComplete

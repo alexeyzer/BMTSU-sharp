@@ -1,0 +1,7 @@
+\\Mac\Home\Desktop\Laba\laba5\bin\Debug\laba5.exe.config
+\\Mac\Home\Desktop\Laba\laba5\bin\Debug\laba5.exe
+\\Mac\Home\Desktop\Laba\laba5\bin\Debug\laba5.pdb
+\\Mac\Home\Desktop\Laba\laba5\obj\Debug\laboratornay_rabota5.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Laba\laba5\obj\Debug\laboratornay_rabota5.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Laba\laba5\obj\Debug\laba5.exe
+\\Mac\Home\Desktop\Laba\laba5\obj\Debug\laba5.pdb
