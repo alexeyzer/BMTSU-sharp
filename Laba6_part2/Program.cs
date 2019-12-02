@@ -9,16 +9,12 @@ namespace Laba6_part2
 {
     class Program
     {
-            /// <summary>
-            /// Проверка, что у свойства есть атрибут заданного типа
-            /// </summary>
-            /// <returns>Значение атрибута</returns>
+   
             public static bool GetPropertyAttribute(PropertyInfo checkType, Type attributeType, out object attribute)
             {
                 bool Result = false;
                 attribute = null;
-
-                //Поиск атрибутов с заданным типом
+     
                 var isAttribute = checkType.GetCustomAttributes(attributeType, false);
                 if (isAttribute.Length > 0)
                 {
@@ -75,16 +71,11 @@ namespace Laba6_part2
 
                 Console.WriteLine("\nВызов метода:");
 
-                //Создание объекта
-                //ForInspection fi = new ForInspection();
-
-                //Можно создать объект через рефлексию
+       
                 Circle fi = (Circle)t.InvokeMember(null, BindingFlags.CreateInstance, null, null, new object[] { });
 
-                //Параметры вызова метода
                 object[] parameters = new object[] { 3, 2 };
 
-                //Вызов метода
                 object Result = t.InvokeMember("example", BindingFlags.InvokeMethod, null, fi, parameters);
                 Console.WriteLine("example(3,2)={0}", Result);
 
