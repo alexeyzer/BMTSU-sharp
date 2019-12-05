@@ -11,7 +11,7 @@ using System.Diagnostics;
 using System.IO;
 using laboratornya_rabota5;
 
-namespace Laboe
+namespace laboratornya_rabota5
 {
     public partial class Form1 : Form
     {
@@ -234,37 +234,7 @@ namespace Laboe
                 MessageBox.Show("Необходимо выбрать файл и ввести слово для поиска");
             }
         }
-        public static List<ParallelSearchResult> ArrayThreadTask(object paramObj)
-        {
-            ParallelSearchThreadParam param = (ParallelSearchThreadParam)paramObj;
-
-            string wordUpper = param.wordPattern.Trim().ToUpper();
-
-           
-            List<ParallelSearchResult> Result = new List<ParallelSearchResult>();
-
-            foreach (string str in param.tempList)
-            {
-                
-                int dist = Levenshtain.Distance(str.ToUpper(), wordUpper);
-
-                
-                if (dist <= param.maxDist)
-                {
-                    ParallelSearchResult temp = new ParallelSearchResult()
-                    {
-                        word = str,
-                        dist = dist,
-                        ThreadNum = param.ThreadNum
-                    };
-
-                    Result.Add(temp);
-                }
-            }
-
-            return Result;
-        }
-
+       
         private void textBox4_TextChanged_1(object sender, EventArgs e)
         {
             // textbox4 растояние для нечеткого поиска

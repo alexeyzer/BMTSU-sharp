@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laboe
+namespace laboratornya_rabota5
 {
     public class ParallelSearchResult
     { 

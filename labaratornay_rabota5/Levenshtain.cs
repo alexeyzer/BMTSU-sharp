@@ -58,5 +58,35 @@ namespace laboratornya_rabota5
             }
             return matrix[str1Len, str2Len];
         }
+        public static List<ParallelSearchResult> ArrayThreadTask(object paramObj)
+        {
+            ParallelSearchThreadParam param = (ParallelSearchThreadParam)paramObj;
+
+            string wordUpper = param.wordPattern.Trim().ToUpper();
+
+
+            List<ParallelSearchResult> Result = new List<ParallelSearchResult>();
+
+            foreach (string str in param.tempList)
+            {
+
+                int dist = Levenshtain.Distance(str.ToUpper(), wordUpper);
+
+
+                if (dist <= param.maxDist)
+                {
+                    ParallelSearchResult temp = new ParallelSearchResult()
+                    {
+                        word = str,
+                        dist = dist,
+                        ThreadNum = param.ThreadNum
+                    };
+
+                    Result.Add(temp);
+                }
+            }
+
+            return Result;
+        }
     }
 }

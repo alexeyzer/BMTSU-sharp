@@ -1,4 +1,4 @@
-﻿namespace Laboe
+﻿namespace laboratornya_rabota5
 {
     partial class Form1
     {

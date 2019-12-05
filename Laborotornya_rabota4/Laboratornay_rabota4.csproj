@@ -53,8 +53,6 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="MinMax.cs" />
-    <Compile Include="ParallelSearchResult.cs" />
-    <Compile Include="ParallelSearchThreadParam.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubArrays.cs" />
@@ -85,7 +83,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\laba5\laboratornay_rabota5.csproj">
+    <ProjectReference Include="..\labaratornay_rabota5\laboratornay_rabota5.csproj">
       <Project>{f7b7f73e-0ceb-4f41-ad65-7b6c1f62d1d3}</Project>
       <Name>laboratornay_rabota5</Name>
     </ProjectReference>

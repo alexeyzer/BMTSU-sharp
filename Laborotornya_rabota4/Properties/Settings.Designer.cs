@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Laboe.Properties
+namespace laboratornya_rabota5.Properties
 {
 
 
