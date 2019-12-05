@@ -4,3 +4,10 @@ C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\bin\Debug\Laba6_part1.pdb
 C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\obj\Debug\Laba6_part1.csprojAssemblyReference.cache
 C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\obj\Debug\Laba6_part1.exe
 C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\obj\Debug\Laba6_part1.pdb
+\\Mac\Home\Desktop\Laba\Laba6_part1\bin\Debug\Laba6_part1.exe.config
+\\Mac\Home\Desktop\Laba\Laba6_part1\bin\Debug\Laba6_part1.exe
+\\Mac\Home\Desktop\Laba\Laba6_part1\bin\Debug\Laba6_part1.pdb
+\\Mac\Home\Desktop\Laba\Laba6_part1\obj\Debug\Laba6_part1.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\Laba\Laba6_part1\obj\Debug\Laba6_part1.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Laba\Laba6_part1\obj\Debug\Laba6_part1.exe
+\\Mac\Home\Desktop\Laba\Laba6_part1\obj\Debug\Laba6_part1.pdb

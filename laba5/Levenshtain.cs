@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laboe
+namespace laboratornya_rabota5
 {
-    public static class EditDistance
+    public static class Levenshtain
     {
 
         public static int Distance(string str1Param, string str2Param)
@@ -56,7 +56,6 @@ namespace Laboe
                     }
                 }
             }
-
             return matrix[str1Len, str2Len];
         }
     }

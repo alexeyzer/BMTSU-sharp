@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
+using laboratornya_rabota5;
 
 namespace Laboe
 {
@@ -145,6 +146,9 @@ namespace Laboe
             //Слово для поиска
             string word = this.textBox2.Text.Trim();
 
+            this.listBox1.BeginUpdate();
+            this.listBox1.Items.Clear();
+
             if (!string.IsNullOrWhiteSpace(word) && list.Count > 0)
             {
                 int maxDist;
@@ -214,11 +218,6 @@ namespace Laboe
                 //Вычисленное количество потоков
                 this.textBox6.Text = count.ToString();
 
-                //Начало обновления списка результатов
-                this.listBox1.BeginUpdate();
-
-                //Очистка списка
-                this.listBox1.Items.Clear();
 
                 //Вывод результатов поиска 
                 foreach (var x in Result)
@@ -247,7 +246,7 @@ namespace Laboe
             foreach (string str in param.tempList)
             {
                 
-                int dist = EditDistance.Distance(str.ToUpper(), wordUpper);
+                int dist = Levenshtain.Distance(str.ToUpper(), wordUpper);
 
                 
                 if (dist <= param.maxDist)
