@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
-using laboratornya_rabota5;
+using Laboratornay_rabota5;
 
 namespace laboratornya_rabota5
 {
@@ -138,6 +138,36 @@ namespace laboratornya_rabota5
         private void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+        public static List<ParallelSearchResult> ArrayThreadTask(object paramObj)
+        {
+            ParallelSearchThreadParam param = (ParallelSearchThreadParam)paramObj;
+
+            string wordUpper = param.wordPattern.Trim().ToUpper();
+
+
+            List<ParallelSearchResult> Result = new List<ParallelSearchResult>();
+
+            foreach (string str in param.tempList)
+            {
+
+                int dist = Levenshtain.Distance(str.ToUpper(), wordUpper);
+
+
+                if (dist <= param.maxDist)
+                {
+                    ParallelSearchResult temp = new ParallelSearchResult()
+                    {
+                        word = str,
+                        dist = dist,
+                        ThreadNum = param.ThreadNum
+                    };
+
+                    Result.Add(temp);
+                }
+            }
+
+            return Result;
         }
 
         private void button2_Click(object sender, EventArgs e)

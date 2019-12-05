@@ -21,7 +21,6 @@ C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\bin\Debug\Laboe.exe.confi
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\bin\Debug\Laboe.exe
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\bin\Debug\Laboe.pdb
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\obj\Debug\Laboratornay_rabota4.csprojAssemblyReference.cache
-C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\obj\Debug\Laboe.Form1.resources
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\obj\Debug\Laboe.Properties.Resources.resources
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\obj\Debug\Laboratornay_rabota4.csproj.GenerateResource.cache
 C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\obj\Debug\Laboe.exe
@@ -40,3 +39,7 @@ C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\obj\Debug\Laboe.pdb
 \\Mac\Home\Desktop\Laba\Laborotornya_rabota4\bin\Debug\laba5.pdb
 \\Mac\Home\Desktop\Laba\Laborotornya_rabota4\bin\Debug\laba5.exe.config
 \\Mac\Home\Desktop\Laba\Laborotornya_rabota4\obj\Debug\Laboratornay_rabota4.csproj.CopyComplete
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\obj\Debug\laboratornya_rabota5.Form1.resources
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\bin\Debug\Laboratornay_rabota5.dll
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\bin\Debug\Laboratornay_rabota5.pdb
+C:\Users\alexe\Source\Repos\Laba1\Laborotornya_rabota4\obj\Debug\Laboratornay_rabota4.csproj.CopyComplete

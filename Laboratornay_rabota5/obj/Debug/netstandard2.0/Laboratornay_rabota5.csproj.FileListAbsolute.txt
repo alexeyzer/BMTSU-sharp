@@ -1,0 +1,8 @@
+C:\Users\alexe\Source\Repos\Laba1\Laboratornay_rabota5\bin\Debug\netstandard2.0\Laboratornay_rabota5.deps.json
+C:\Users\alexe\Source\Repos\Laba1\Laboratornay_rabota5\bin\Debug\netstandard2.0\Laboratornay_rabota5.dll
+C:\Users\alexe\Source\Repos\Laba1\Laboratornay_rabota5\bin\Debug\netstandard2.0\Laboratornay_rabota5.pdb
+C:\Users\alexe\Source\Repos\Laba1\Laboratornay_rabota5\obj\Debug\netstandard2.0\Laboratornay_rabota5.csprojAssemblyReference.cache
+C:\Users\alexe\Source\Repos\Laba1\Laboratornay_rabota5\obj\Debug\netstandard2.0\Laboratornay_rabota5.AssemblyInfoInputs.cache
+C:\Users\alexe\Source\Repos\Laba1\Laboratornay_rabota5\obj\Debug\netstandard2.0\Laboratornay_rabota5.AssemblyInfo.cs
+C:\Users\alexe\Source\Repos\Laba1\Laboratornay_rabota5\obj\Debug\netstandard2.0\Laboratornay_rabota5.dll
+C:\Users\alexe\Source\Repos\Laba1\Laboratornay_rabota5\obj\Debug\netstandard2.0\Laboratornay_rabota5.pdb

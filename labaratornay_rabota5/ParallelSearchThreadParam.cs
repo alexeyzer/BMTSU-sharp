@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace laboratornya_rabota5
 {
-    class ParallelSearchThreadParam
+    public class ParallelSearchThreadParam
     {
         public List<string> tempList { get; set; }
         public string wordPattern { get; set; }
@@ -14,4 +14,5 @@ namespace laboratornya_rabota5
         public int ThreadNum { get; set; }
        
     }
+
 }

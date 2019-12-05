@@ -1,7 +1,6 @@
 C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\bin\Debug\Laba6_part1.exe.config
 C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\bin\Debug\Laba6_part1.exe
 C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\bin\Debug\Laba6_part1.pdb
-C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\obj\Debug\Laba6_part1.csprojAssemblyReference.cache
 C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\obj\Debug\Laba6_part1.exe
 C:\Users\alexe\Source\Repos\Laba1\Laba6_part1\obj\Debug\Laba6_part1.pdb
 \\Mac\Home\Desktop\Laba\Laba6_part1\bin\Debug\Laba6_part1.exe.config

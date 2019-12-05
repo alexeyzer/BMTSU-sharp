@@ -5,3 +5,6 @@
 \\Mac\Home\Desktop\Laba\laba5\obj\Debug\laboratornay_rabota5.csproj.CoreCompileInputs.cache
 \\Mac\Home\Desktop\Laba\laba5\obj\Debug\laba5.exe
 \\Mac\Home\Desktop\Laba\laba5\obj\Debug\laba5.pdb
+C:\Users\alexe\source\repos\Laba1\labaratornay_rabota5\obj\Debug\laboratornay_rabota5.csprojAssemblyReference.cache
+C:\Users\alexe\source\repos\Laba1\labaratornay_rabota5\obj\Debug\laba5.exe
+C:\Users\alexe\source\repos\Laba1\labaratornay_rabota5\obj\Debug\laba5.pdb

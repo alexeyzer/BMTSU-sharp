@@ -12,5 +12,6 @@ namespace laboratornya_rabota5
   
        public int dist { get; set; }
       
-       public int ThreadNum { get; set; } }
+       public int ThreadNum { get; set; } 
     }
+}
